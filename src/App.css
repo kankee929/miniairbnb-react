@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+  font-family: Poppins;
+}
+.gray {
+  color: #918e9b;
+}
+
+.bold {
+  font-weight: bold;
+}
+.navbar {
+  margin: auto;
+  background: #ffffff;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.navbar > img {
+  padding: 22px 0px 0px 30px;
+}
+
+.main-container {
+  background-image: url("../public/Images/Groupcollection.png");
+  width: 545px;
+  height: 232px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 8.95px;
+  margin: 20px auto;
+}
+
+.main-content > h3 {
+  margin: auto;
+  padding: 20px 35px;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 110%;
+  color: #000000;
+}
+
+.main-content > p {
+  width: 340px;
+  height: 56px;
+  margin: 0;
+  padding: 0px 0px 0px 35px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 110%;
+  color: #222222;
+}
+
+.cards-list {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
+}
+
+.card-container {
+  padding: 10px 10px 0px 30px;
+  width: 175px;
+  font-size: 12px;
+  flex: 0 0 auto; /* ADD */
+  display: flex; /* ADD */
+  flex-direction: column; /* ADD */
+}
+
+.card--image {
+  width: 100%;
+  border-radius: 9px;
+  
+}
+
+.card--title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card--stats {
+  display: flex;
+  align-items: center;
+}
+
+.card--star {
+  height: 14px;
+}
+
+.card--price {
+  margin-top: auto;
+}
